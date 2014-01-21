@@ -1,0 +1,30 @@
+body {background-color : #f00;}
+h1, h2, h3 {text-align : center;}
+
+.wrapper{
+	margin : 0;
+	padding : 0;
+}
+
+li > a {
+	display : block-inline;
+}
+
+header, 
+.tile,
+.content{
+	height : 100vh;
+}
+
+footer.info {
+	height : 60vh;
+	padding : 20px;
+}
+
+footer {padding : 20px;}
+
+header 		{background-color : #aaa;}
+.content	{background-color : #ccc;}
+.tile		{background-color : #ddd;}
+footer 		{background-color : #eee;}
+.tile:hover {box-shadow : inset 0 0 70px rgba(0,0,0,.3);}
