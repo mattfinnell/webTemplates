@@ -24,19 +24,26 @@ header {
 }
 
 #parallax1 {
-	margin : 0;
-	background : url("../images/lowPolyGenLighthouse.jpg") #f00;
-	background-repeat : no-repeat;
-	background-position : 25% 50%;
+	color : #66c2ff;
+	padding : 100px;
+	background : url("../images/irongrip_@2X.png") #f00;
+	background-repeat : repeat;
 	background-attachment : scroll;
-	background-size : 150%;
 }
+
+#parallax2{
+	color : #66c2ff;
+	padding : 100px;
+	background : url("../images/px_by_Gre3g_@2X.png") #f00;
+	background-repeat : repeat;
+	background-attachment : scroll;
+}
+
 
 .tall {
 	height : 140vh;
 	background-color : #ddd;
 }
-
 
 /* make sure nav-bar initializes as transparent*/
 .navbar-inverse {
