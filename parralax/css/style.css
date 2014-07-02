@@ -1,0 +1,53 @@
+nav {
+	border-color : rgba(0,0,0,0);
+}
+
+body {background-color : #f00;}
+
+h1 {
+	margin : 0px;
+	text-align : center;
+}
+
+header {
+	height : 100vh;
+	background : url("../images/lowPolyGenLighthouse.jpg") #f00;
+	background-repeat : no-repeat;
+	background-position : 50% 100%;
+	background-attachment : scroll;
+	background-size : cover;
+}
+
+.short {
+	height : 70vh;
+	background-color : #ccc;
+}
+
+#parallax1 {
+	margin : 0;
+	background : url("../images/lowPolyGenLighthouse.jpg") #f00;
+	background-repeat : no-repeat;
+	background-position : 25% 50%;
+	background-attachment : scroll;
+	background-size : 150%;
+}
+
+.tall {
+	height : 140vh;
+	background-color : #ddd;
+}
+
+
+/* make sure nav-bar initializes as transparent*/
+.navbar-inverse {
+	border-color : transparent; 
+	background-color : transparent;
+}
+
+.navbar a {
+	color : white !important;
+}
+
+.navbar a:hover {
+	color : blue !important;
+}
